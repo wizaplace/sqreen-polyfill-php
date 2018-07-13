@@ -1,0 +1,12 @@
+{
+    "name": "wizaplace/sqreen-polyfill",
+    "description": "Polyfill for the Sqreen PHP extension",
+    "keywords": [ "sqreen", "polyfill" ],
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "files": [
+            "src/Sqreen.php"
+        ]
+    }
+}
