@@ -30,4 +30,13 @@ if (!extension_loaded('sqreen')) {
     {
     }
 
+    /**
+     * @param string $event_name
+     * @param array $options
+     * @see https://docs.sqreen.io/sqreen-for-php/tracking-custom-events/
+     */
+    function track($event_name, $options = [])
+    {
+    }
+
 }
